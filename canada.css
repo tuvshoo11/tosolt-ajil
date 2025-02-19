@@ -33,9 +33,7 @@ nav a {
     transition: color 0.5s ease-in-out;
 }
 
-nav a:hover {
-    color: #f9bad4;
-}
+
 
 /* First Section */
 .container {
@@ -163,27 +161,6 @@ nav a:hover {
     display: none;
 }
 
-/* Animation */
-.my-ani {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 100px;
-}
-
-.animation {
-    display: flex;
-    width: 200%;
-    height: 100%;
-    justify-content: space-evenly;
-    animation: slide 20s linear infinite;
-}
-
-.animation img {
-    width: auto;
-    flex-shrink: 0;
-    height: auto;
-}
 
 @keyframes slide {
     0% {
@@ -194,17 +171,7 @@ nav a:hover {
     }
 }
 
-/* Map */
-.my-map {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-}
 
-.my-map img {
-    display: block;
-    width: 100%;
-}
 
 .overlay-t {
     position: absolute;
@@ -367,7 +334,7 @@ input {
 
 /* Footer */
 footer {
-    background-color: #f7c4ca;
+    background-color: #d64e4e;
     color: #000000;
     text-align: center;
     padding: 10px 0;
@@ -446,20 +413,3 @@ footer p {
     }
 }
 
-@media screen and (max-width: 480px) {
-    .my-ani {
-        height: 150px;
-    }
-
-    .animation img {
-        width: 60px;
-    }
-
-    .plans .plan {
-        height: auto;
-    }
-
-    .plans .plan img {
-        height: 40%;
-    }
-}
